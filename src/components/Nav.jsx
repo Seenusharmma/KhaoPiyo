@@ -6,7 +6,7 @@ import { dataContext } from "../context/UserContext";
 import { food_items } from "../food";
 
 const Nav = () => {
-  let { input, setInput, cate, setCate } = useContext(dataContext);
+  let { input, setInput, cate, setCate, showCart, setShowCart } = useContext(dataContext);
   useEffect(() => {
     let newlist = food_items.filter((item) => item.food_name.includes(input) || item.food_name.toLowerCase().includes(input));
     setCate(newlist);
@@ -34,11 +34,13 @@ const Nav = () => {
       </form>
 
       {/* Cart section  */}
-      <div className="w-[60px] h-[60px] bg-white flex justify-center items-center rounded-md shadow-xl relative">
+      <div className="w-[60px] h-[60px] bg-white flex justify-center items-center rounded-md shadow-xl relative"onClick={()=>{
+        setShowCart(true)
+      }}>
         <span className="absolute top-1 right-3 text-red-600 font-bold text-[18px]">
           0
         </span>
-        <RiShoppingBasket2Line className="w-[30px] h-[30px] text-red-600 " />
+        <RiShoppingBasket2Line className="w-[30px] h-[30px] text-red-600 cursor-pointer" />
       </div>
     </div>
   );
