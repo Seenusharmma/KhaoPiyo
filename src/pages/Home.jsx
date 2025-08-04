@@ -7,6 +7,12 @@ import { dataContext } from "../context/UserContext";
 import { RxCross2 } from "react-icons/rx";
 import Card2 from "../components/Card2";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/free-mode";
+import { FreeMode } from "swiper/modules";
+
+
 const Home = () => {
   let { cate, setCate, input, showCart, setShowCart } = useContext(dataContext);
 
@@ -25,20 +31,40 @@ const Home = () => {
       <Nav />
       {/* Menu Section  */}
       {!input ? (
-        <div className="w-full overflow-x-auto lg:overflow-x-hidden">
-          <div className="flex lg:flex-wrap gap-4 justify-start items-center px-4 py-4 min-w-max lg:justify-center">
-            {categories.map((item, index) => (
-              <div
-                key={index}
-                className="min-w-[140px] w-[140px] h-[150px] flex flex-col items-center justify-center gap-2 p-5 text-[20px] font-semibold text-gray-500 hover:text-black transition-transform duration-300 hover:scale-110 flex-shrink-0"
-                onClick={() => filter(item.name)}
-              >
-                {item.image}
-                <span className="w-full text-center">{item.name}</span>
-              </div>
-            ))}
-          </div>
-        </div>
+        <Swiper
+  spaceBetween={2}
+  slidesPerView={3}
+  freeMode={true}
+  modules={[FreeMode]}
+  className="w-full px-4 py-6"
+  breakpoints={{
+    640: {
+      slidesPerView: 3,
+    },
+    768: {
+      slidesPerView: 4,
+    },
+    1024: {
+      slidesPerView: 5,
+    },
+    1280: {
+      slidesPerView: 10,
+    },
+  }}
+>
+  {categories.map((item, index) => (
+    <SwiperSlide key={index}>
+      <div
+        className="w-[140px] h-[150px] flex flex-col items-center justify-center gap-2 p-5 text-[20px] font-semibold text-gray-500 hover:text-black transition-transform duration-300 hover:scale-110 cursor-pointer"
+        onClick={() => filter(item.name)}
+      >
+        {item.image}
+        <span className="text-center">{item.name}</span>
+      </div>
+    </SwiperSlide>
+  ))}
+</Swiper>
+
       ) : null}
 
       {/* carousal section  */}
