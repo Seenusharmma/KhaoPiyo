@@ -24,7 +24,30 @@ import image23 from "./assets/image23.avif";
 import image24 from "./assets/image24.avif";
 import image25 from "./assets/image25.avif";
 import image26 from "./assets/image26.avif";
-
+import image27 from "./assets/image27.avif";
+import image28 from "./assets/image28.avif";
+import image29 from "./assets/image29.avif";
+import image30 from "./assets/image30.avif";
+import image31 from "./assets/image31.avif";
+import image32 from "./assets/image32.avif";
+import image33 from "./assets/image33.avif";
+import image34 from "./assets/image34.avif";
+import image35 from "./assets/image35.avif";
+import image36 from "./assets/image36.avif";
+import image37 from "./assets/image37.avif";
+import image38 from "./assets/image38.avif";
+import image39 from "./assets/image39.avif";
+import image40 from "./assets/image40.avif";
+import image41 from "./assets/image41.avif";
+import image42 from "./assets/image42.avif";
+import image43 from "./assets/image43.avif";
+import image44 from "./assets/image44.avif";
+import image45 from "./assets/image45.avif";
+import image46 from "./assets/image46.avif";
+import image47 from "./assets/image47.avif";
+import image48 from "./assets/image48.avif";
+import image49 from "./assets/image49.avif";
+import image50 from "./assets/image50.avif";
 
 export const food_items = [
     {"id": 1, "food_name": "Pancakes", "food_category": "breakfast", "food_type": "veg", "food_quantity": 1, "food_image": image1, "price": 499},
@@ -53,4 +76,28 @@ export const food_items = [
     {"id": 24, "food_name": "Hawaiian Pizza", "food_category": "pizza", "food_type": "non_veg", "food_quantity": 1, "food_image": image24, "price": 799},
     {"id": 25, "food_name": "Pasta Primavera", "food_category": "pasta", "food_type": "veg", "food_quantity": 1, "food_image": image25, "price": 899},
     {"id": 26, "food_name": "Chicken Biryani", "food_category": "biryani", "food_type": "non_veg", "food_quantity": 1, "food_image": image26, "price": 299},
+    {"id": 27, "food_name": "Grilled Fish", "food_category": "thali", "food_type": "non_veg", "food_quantity": 1, "food_image": image27, "price": 399},
+    {"id": 28, "food_name": "Spicy CHicken Burger", "food_category": "burger", "food_type": "non_veg", "food_quantity": 1, "food_image": image28, "price": 295},
+    {"id": 29, "food_name": "Peri-Peri Fries", "food_category": "staters", "food_type": "veg", "food_quantity": 1, "food_image": image29, "price": 255},
+    {"id": 30, "food_name": "Chilli Chicken Drums", "food_category": "staters", "food_type": "non_veg", "food_quantity": 1, "food_image": image30, "price": 255},
+    {"id": 31, "food_name": "Thai Noodles", "food_category": "noodles", "food_type": "veg", "food_quantity": 1, "food_image": image31, "price": 255},
+    {"id": 32, "food_name": "Veg CUrry With Jasmine Rice", "food_category": "thali", "food_type": "veg", "food_quantity": 1, "food_image": image32, "price": 255},
+    {"id": 33, "food_name": "Garlic Bread", "food_category": "breads", "food_type": "veg", "food_quantity": 1, "food_image": image33, "price": 255},
+    {"id": 34, "food_name": "Chicken Tart", "food_category": "staters", "food_type": "non_veg", "food_quantity": 1, "food_image": image34, "price": 255},
+    {"id": 35, "food_name": "Aloo Tikki Chhat", "food_category": "staters", "food_type": "veg", "food_quantity": 1, "food_image": image35, "price": 255},
+    {"id": 36, "food_name": "Dal Tadka With Fulka", "food_category": "thali", "food_type": "veg", "food_quantity": 1, "food_image": image36, "price": 255},
+    {"id": 37, "food_name": "SeaFood Fried Rice", "food_category": "thali", "food_type": "non_veg", "food_quantity": 1, "food_image": image37, "price": 255},
+    {"id": 38, "food_name": "Veg Curry With Steam Rice", "food_category": "thali", "food_type": "veg", "food_quantity": 1, "food_image": image38, "price": 255},
+    {"id": 39, "food_name": "Cheese Chicken Garlic Bread", "food_category": "breads", "food_type": "non_veg", "food_quantity": 1, "food_image": image39, "price": 255},
+    {"id": 40, "food_name": "Chicken Chilli", "food_category": "staters", "food_type": "non_veg", "food_quantity": 1, "food_image": image40, "price": 255},
+    {"id": 41, "food_name": "Tandoori Pomphret", "food_category": "thali", "food_type": "non_veg", "food_quantity": 1, "food_image": image41, "price": 255},
+    {"id": 42, "food_name": "Lahori Fish Tikka", "food_category": "staters", "food_type": "non_veg", "food_quantity": 1, "food_image": image42, "price": 255},
+    {"id": 43, "food_name": "Prawn Fry", "food_category": "staters", "food_type": "non_veg", "food_quantity": 1, "food_image": image43, "price": 255},
+    {"id": 44, "food_name": "Stir Fried Chicken", "food_category": "staters", "food_type": "non_veg", "food_quantity": 1, "food_image": image44, "price": 255},
+    {"id": 45, "food_name": "Prawn Stew With Appam", "food_category": "thali", "food_type": "non_veg", "food_quantity": 1, "food_image": image45, "price": 255},
+    {"id": 46, "food_name": "Paneer Warp", "food_category": "staters", "food_type": "veg", "food_quantity": 1, "food_image": image46, "price": 255},
+    {"id": 47, "food_name": "Fettucini pesto Pasta", "food_category": "pasta", "food_type": "veg", "food_quantity": 1, "food_image": image47, "price": 255},
+    {"id": 48, "food_name": "Thai Lotus Stem Garlic Chips", "food_category": "staters", "food_type": "veg", "food_quantity": 1, "food_image": image48, "price": 255},
+    {"id": 49, "food_name": "Fried Rice", "food_category": "thali", "food_type": "veg", "food_quantity": 1, "food_image": image49, "price": 255},
+    {"id": 50, "food_name": "Crab Gravy", "food_category": "thali", "food_type": "non_veg", "food_quantity": 1, "food_image": image50, "price": 255},
 ];
