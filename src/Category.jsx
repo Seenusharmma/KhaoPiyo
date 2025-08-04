@@ -9,6 +9,7 @@ import breads from '../src/assets/breads.png'
 import salads from '../src/assets/salads.png'
 import staters from '../src/assets/staters.png'
 import drinks from '../src/assets/drinks.png'
+import noodles from '../src/assets/noodles.png'
 const categories = [
     {
         id: 1,
@@ -64,7 +65,12 @@ const categories = [
         id: 11,
         name: "drinks",
         image: <img src={drinks} alt="" className="w-[70px] h-[60px]" />
-    }
+    },
+    {
+        id: 12,
+        name: "noodles",
+        image: <img src={noodles} alt="" className="w-[70px] h-[60px]" />
+    },
     
 ]
 
