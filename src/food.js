@@ -25,6 +25,7 @@ import image24 from "./assets/image24.avif";
 import image25 from "./assets/image25.avif";
 import image26 from "./assets/image26.avif";
 
+
 export const food_items = [
     {"id": 1, "food_name": "Pancakes", "food_category": "breakfast", "food_type": "veg", "food_quantity": 1, "food_image": image1, "price": 499},
     {"id": 2, "food_name": "Chicken Soup", "food_category": "soups", "food_type": "non_veg", "food_quantity": 1, "food_image": image2, "price": 399},
@@ -51,5 +52,5 @@ export const food_items = [
     {"id": 23, "food_name": "Egg Fried Rice", "food_category": "thali", "food_type": "non_veg", "food_quantity": 1, "food_image": image23, "price": 599},
     {"id": 24, "food_name": "Hawaiian Pizza", "food_category": "pizza", "food_type": "non_veg", "food_quantity": 1, "food_image": image24, "price": 799},
     {"id": 25, "food_name": "Pasta Primavera", "food_category": "pasta", "food_type": "veg", "food_quantity": 1, "food_image": image25, "price": 899},
-    {"id": 26, "food_name": "Chicken Biryani", "food_category": "biryani", "food_type": "non_veg", "food_quantity": 1, "food_image": image26, "price": 299}
+    {"id": 26, "food_name": "Chicken Biryani", "food_category": "biryani", "food_type": "non_veg", "food_quantity": 1, "food_image": image26, "price": 299},
 ];

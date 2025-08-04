@@ -5,6 +5,10 @@ import soup from '../src/assets/soup.png'
 import biriyani from '../src/assets/biriyani.png'
 import pasta from '../src/assets/pasta.png'
 import all from '../src/assets/all.png'
+import breads from '../src/assets/breads.png'
+import salads from '../src/assets/salads.png'
+import staters from '../src/assets/staters.png'
+import drinks from '../src/assets/drinks.png'
 const categories = [
     {
         id: 1,
@@ -41,6 +45,26 @@ const categories = [
         name: "soups",
         image: <img src={soup} alt="" className="w-[70px] h-[60px]" />
     },
+    {
+        id: 8,
+        name: "breads",
+        image: <img src={breads} alt="" className="w-[70px] h-[60px]" />
+    },
+    {
+        id: 9,
+        name: "salads",
+        image: <img src={salads} alt="" className="w-[70px] h-[60px]" />
+    },
+    {
+        id: 10,
+        name: "staters",
+        image: <img src={staters} alt="" className="w-[70px] h-[60px]" />
+    },
+    {
+        id: 11,
+        name: "drinks",
+        image: <img src={drinks} alt="" className="w-[70px] h-[60px]" />
+    }
     
 ]
 
