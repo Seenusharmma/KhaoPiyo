@@ -3,7 +3,7 @@ import image1 from '../assets/image1.avif'
 
 const Card2 = () => {
   return (
-    <div className='w-fu h-[120px] bg-red-300'>
+    <div className='w-fu h-[120px] bg-red-300 z-5000'>
         {/* right section  */}
       <div className="w-[70%] h-full bg-slate-200">
         {/* img section  */}
