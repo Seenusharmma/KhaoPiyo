@@ -48,6 +48,19 @@ import image47 from "./assets/image47.avif";
 import image48 from "./assets/image48.avif";
 import image49 from "./assets/image49.avif";
 import image50 from "./assets/image50.avif";
+import image51 from "./assets/image51.avif";
+import image52 from "./assets/image52.avif";
+import image53 from "./assets/image53.avif";
+import image54 from "./assets/image54.avif";
+import image55 from "./assets/image55.avif";
+import image56 from "./assets/image56.avif";
+import image57 from "./assets/image57.avif";
+import image58 from "./assets/image58.avif";
+import image59 from "./assets/image59.avif";
+import image60 from "./assets/image60.avif";
+import image61 from "./assets/image61.avif";
+import image62 from "./assets/image62.avif";
+import image63 from "./assets/image63.avif";
 
 export const food_items = [
     {"id": 1, "food_name": "Pancakes", "food_category": "breakfast", "food_type": "veg", "food_quantity": 1, "food_image": image1, "price": 499},
@@ -100,4 +113,17 @@ export const food_items = [
     {"id": 48, "food_name": "Thai Lotus Stem Garlic Chips", "food_category": "staters", "food_type": "veg", "food_quantity": 1, "food_image": image48, "price": 255},
     {"id": 49, "food_name": "Fried Rice", "food_category": "thali", "food_type": "veg", "food_quantity": 1, "food_image": image49, "price": 255},
     {"id": 50, "food_name": "Crab Gravy", "food_category": "thali", "food_type": "non_veg", "food_quantity": 1, "food_image": image50, "price": 255},
+    {"id": 51, "food_name": "Fish & Fries", "food_category": "staters", "food_type": "non_veg", "food_quantity": 1, "food_image": image51, "price": 255},
+    {"id": 52, "food_name": "Thai Green Curry With Jasmine Rice", "food_category": "thali", "food_type": "veg", "food_quantity": 1, "food_image": image52, "price": 255},
+    {"id": 53, "food_name": "Mysore Mutton Pulao", "food_category": "thali", "food_type": "non_veg", "food_quantity": 1, "food_image": image53, "price": 255},
+    {"id": 54, "food_name": "Classic Mutton", "food_category": "staters", "food_type": "non_veg", "food_quantity": 1, "food_image": image54, "price": 255},
+    {"id": 55, "food_name": "American Chopsea", "food_category": "noodles", "food_type": "veg", "food_quantity": 1, "food_image": image55, "price": 255},
+    {"id": 56, "food_name": "Butter Garlic Prawn", "food_category": "staters", "food_type": "non_veg", "food_quantity": 1, "food_image": image56, "price": 255},
+    {"id": 57, "food_name": "Stir Fried Salad", "food_category": "salads", "food_type": "veg", "food_quantity": 1, "food_image": image57, "price": 255},
+    {"id": 58, "food_name": "Egg Akuri With Malabar Paratha", "food_category": "thali", "food_type": "non_veg", "food_quantity": 1, "food_image": image58, "price": 255},
+    {"id": 59, "food_name": "Tandoori Platter", "food_category": "staters", "food_type": "veg", "food_quantity": 1, "food_image": image59, "price": 255},
+    {"id": 60, "food_name": "Sigdi Kabab Platter", "food_category": "staters", "food_type": "non_veg", "food_quantity": 1, "food_image": image60, "price": 255},
+    {"id": 61, "food_name": "Thai Basil Noodles", "food_category": "noodles", "food_type": "veg", "food_quantity": 1, "food_image": image61, "price": 255},
+    {"id": 62, "food_name": "Malai Brocolli", "food_category": "staters", "food_type": "veg", "food_quantity": 1, "food_image": image62, "price": 255},
+    {"id": 63, "food_name": "Butter Paneer Masala With Roti", "food_category": "thali", "food_type": "veg", "food_quantity": 1, "food_image": image63, "price": 255},
 ];
